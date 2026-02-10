@@ -33,7 +33,7 @@ tr.first th {
     text-align: center;
     text-shadow: -1px -1px 1px #ffffff;
 }
-/* tr.even td, tr.even th, tr:nth-child(even) td, */tr:nth-child(even) th, tr:nth-child(even) td 
+/* tr.even td, tr.even th, tr:nth-child(even) td - nende variantidega tuleb class määrata igale sobivale reale. */tr:nth-child(even) th, tr:nth-child(even) td 
 {
     background-color: #e8eff5;
 }
