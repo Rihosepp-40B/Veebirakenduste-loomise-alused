@@ -1,0 +1,3 @@
+@import "960_12_col.css";
+@import url(index.css);
+/* Saab kahte moodi viidata url ja lihtsalt jutumärkide abil. Ka urls oleva asja võib asetada jutumärkidesse url("index.css") */
