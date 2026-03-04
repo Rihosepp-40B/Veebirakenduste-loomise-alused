@@ -62,7 +62,7 @@ hgroup {
 figure {
     float: left;
     width: 290px;
-    height: 220px;
+    min-height: 220px;
     padding: 0px;
     margin: 20px;
     border: 1px solid #eeeeee;
@@ -111,4 +111,8 @@ aside h2 {
 footer {
     font-size: 80%;
     padding: 7px 0px 0px 20px;
+}
+article p, article ol, article ul {
+    text-align: justify; /* paragrafides teksti ääre joondused */
+    padding-right: 20px;
 }

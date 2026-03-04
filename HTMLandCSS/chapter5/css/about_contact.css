@@ -1,0 +1,13 @@
+figure {
+    float:none;
+    width: fit-content;
+    height: fit-content;
+}
+figure img { 
+    max-width: fit-content;
+    max-height: fit-content;
+}
+hgroup, article p {
+    padding: 0px;
+    margin: 20px;
+}

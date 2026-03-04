@@ -1,0 +1,8 @@
+article p, article ul, article ol {
+    margin: 0px 0px 15px 20px;
+    width: 92%;
+    float: left;
+}
+article ul, article ol   {
+    width: 86%;
+}
