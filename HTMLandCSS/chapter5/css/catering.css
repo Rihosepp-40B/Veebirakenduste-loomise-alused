@@ -1,0 +1,8 @@
+figure {
+            height: max-content;
+        }
+        /* Surub pildid figure mõõtmetesse */
+        figure img { 
+            min-width: 290px;
+            max-height: fit-content;
+        }
