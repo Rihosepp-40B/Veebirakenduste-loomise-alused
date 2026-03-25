@@ -3,6 +3,9 @@
 function renderUserDetails(user) {
     console.log(user.name, user.age);
 }
+function renderUserDetails1(user) {
+    console.log(user.name, user.age);
+}
 var user = {
     id: "ads",
     name: "Kyle",
@@ -13,3 +16,8 @@ var user = {
     }
 };
 renderUserDetails(user);
+renderUserDetails1({ name: "nipitiri", age: 123 });
+//NB! selleks, et näha konsoolis tulemust
+//1. npx tsc tsFailinimi.ts
+//2. genereerib js faili
+//3. node index.js käsklus tuleb sisestada
