@@ -4,7 +4,7 @@ const HEAD = (
         width: "50px",
         height: "50px",
         borderRadius: "100%",
-        backgroundColor: "10px solid black",
+        border: "10px solid black",
         position: "absolute",
         top: "50px",
         right: "-30px"
