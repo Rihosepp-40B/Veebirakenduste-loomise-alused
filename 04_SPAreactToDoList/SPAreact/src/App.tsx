@@ -12,11 +12,11 @@ type ToDo = {
 //See on tüübi määratlus, mis võimaldab meil defineerida funktsionaalset komponenti Reactis
 
 const App: React.FC = () => {
-  const [toDos, setToDos] = useState<ToDo[]>([]);
+  const [toDos, setToDos] = useState<ToDo[]>([]); //
   const [newToDo, setNewToDo] = useState('');
   //Mis on useState?
   //See on React hook, mis võimaldab meil lisada komponentidele olekut.
-  //See tagastab massiivi, kus esimine element on praegune olek ja teine
+  //See tagastab massiivi, kus esimene element on praegune olek ja teine
   //element on funktsioon, mida saab kasutada oleku värskendamiseks.
 
   const addToDo = () => {
@@ -31,18 +31,19 @@ const App: React.FC = () => {
     // Pärast uue ülesande lisamist tühjemdame sisendvälja, et kasutaja saaks kohe uue ülesande lisada.
     const toggleToDo = (id: number) => {
       // toggleToDo funktsioon võtab ülesande ID ja muudab selle completed oleku vastupidiseks.
-      // toDos.map() läbib kõik ülesanded ja kui leitud ülesanne vastab ID'le, siis luuakse
-      // uus objekt, kus completed väärtus on mitte tehtud.
-      setToDos(toDos.map(toDo =>
-        toDo.id === id ? { ...toDo, completed: !toDo.completed } : toDo
+      setToDos(toDos.map(toDo =>  // toDos.map() - käib läbi kõik järjendi toDos järjendi elemendid, tagastab uue järjendi (ei muuda originaali).
+      // toDo - on elemnet järjendis mis võetakse ja tehakse midagi (=>).
+        toDo.id === id ? { ...toDo, completed: !toDo.completed } : toDo  // toDo.id - võtab elemendi id ja võrdleb (===) otsitava väärtusega (id)
+        // ? - lühike if eelnevale loogikale väljastab juhul kui tõene või (:) kui väär tulemused.
+        // ... - võta kõik väärtused (toDo) ja pane siia. complete: - on muutuja/väli. ! - eitus, pöörab elemendi muutuja(boolean) ümber.
+        // Sulgudes, tuuakse kaks korda muutuja completed välja (1. element toDo'ga, 2. completed:) viimane muudatus/väärtus rakendatakse (ehk siis peale koma on muuda / lisa esimesele osale muutuja väärtusega(vaikimisi tõde))
       ));
     };
 
     const deleteToDo = (id: number) => {
       // deleteToDo funktsioon võtab ülesande ID ja eemaldab selle toDos massiivist.
-      // toDos.filter() loob uue massiivi, mis sisaldab ainult neid ülesandeid,
-      // mille ID ei ole kustutatud.
-      setToDos(toDos.filter(toDo => toDo.id !== id));
+      // toDos.filter() loob uue massiivi
+      setToDos(toDos.filter(toDo => toDo.id !== id)); // tagastab uude nimekirja need elemendid, mille id ei kutsutud välja
     };
 
 //function App() {
