@@ -1,11 +1,11 @@
 import { Router } from "express";
-import * as cotroller from "../controllers/itemsController";
+import * as controller from "../controllers/itemsController.ts";
 
 const router = Router();
 // Router käsitleb navigatsiooni erinevate vaadete vahel
 
-router.get("/", cotroller.getItems);
-router.post("/", cotroller.createItem);
-router.delete("/:id", cotroller.removeItem);
+router.get("/", controller.getItems);
+router.post("/", controller.createItem);
+router.delete("/:id", controller.removeItem);
 
 export default router

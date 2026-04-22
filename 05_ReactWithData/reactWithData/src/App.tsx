@@ -12,7 +12,7 @@ export default function App() {
     setItems(res.data);
   }
 
-  useEffect(() => {
+  useEffect(() => {  // see toob kohe avamisel olemasolevad andmed lehele
     load();
   }, []);
 

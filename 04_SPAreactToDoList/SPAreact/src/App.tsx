@@ -20,7 +20,7 @@ const App: React.FC = () => {
   //element on funktsioon, mida saab kasutada oleku värskendamiseks.
 
   const addToDo = () => {
-    if (!newToDo.trim()) return;  //Ignore empty tasks
+    if (!newToDo.trim() ) return;  //Ignore empty tasks
     setToDos([...toDos, { id: Date.now(), text: newToDo.trim(), completed: false }]);
     // Date.now() annab meile unikaalse ID, mis põhineb praegusest ajast.
     // ...toDos tähendab, et me võtame olemasolevad ülesanded ja lisame uue ülesande massiivi lõppu

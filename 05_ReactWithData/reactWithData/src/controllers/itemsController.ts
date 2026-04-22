@@ -1,5 +1,5 @@
 import type { Request, Response } from "express";
-import * as service from "../services/itemServices";
+import * as service from "../services/itemServices.ts";
 
 export const getItems = async (_: Request, res: Response) => {
     const items = await service.getItems();

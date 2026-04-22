@@ -1,4 +1,4 @@
-import { poolPromise } from "../config/db"
+import { poolPromise } from "../config/db.ts"
 import sql from "mssql";
 
 export const getItems = async () => {
