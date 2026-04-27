@@ -12,6 +12,8 @@ export default function App() {
     setItems(res.data);
   }
 
+  
+
   useEffect(() => {  // see toob kohe avamisel olemasolevad andmed lehele
     load();
   }, []);
@@ -20,7 +22,7 @@ export default function App() {
     <div>
       <h1>My Data App</h1>
       <ItemForm onAdd={async (name: string) => { await api.createItem(name); load(); }}/>
-      <ItemList items={items} onDelete={ async (id: number) => { await api.deleteItem(id); load(); }} />
+      <ItemList items={items} onDelete={ async (id: number) => { await api.deleteItem(id); load(); }} onEdit={ async (id: number, Name: string) => { await api.updateItem(id, Name); load()}} />
     </div>
   );
 }

@@ -20,3 +20,11 @@ export const deleteItem = async (id: number) => {
         .input("id", sql.Int, id)
         .query("delete from Items where id = @id");
 }
+
+export const updateItem = async (id: number, name: string) => {
+    const pool = await poolPromise;
+    await pool.request()
+        .input("id", sql.Int, id)
+        .input("name", sql.NVarChar, name)
+        .query("update Items set name = @name where id = @id");
+}

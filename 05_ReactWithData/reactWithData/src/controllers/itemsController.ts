@@ -15,3 +15,8 @@ export const removeItem = async (req: Request, res: Response) => {
     await service.deleteItem(Number(req.params.id));
     res.sendStatus(200);  // 200 on kood accepted
 }
+
+export const editItem = async (req: Request, res: Response) => {
+    await service.updateItem(Number(req.params.id), req.body.name);
+    res.sendStatus(200);  // 200 on kood accepted
+}

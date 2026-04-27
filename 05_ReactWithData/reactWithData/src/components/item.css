@@ -1,0 +1,26 @@
+ul.item-list {
+  list-style: none;
+  padding: 0;
+  margin: auto;
+}
+
+ul.item-list li {
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  max-width: 600px;
+  border-bottom: 1px solid #eee;
+}
+
+ul.item-list li button {
+  width: 70px;
+}
+
+ul.item-list li div {
+  min-width: 70%;
+  text-align: justify;
+}
+
+ul.item-list li:hover {
+  background-color: aqua;
+}
