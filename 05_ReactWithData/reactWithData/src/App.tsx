@@ -13,7 +13,6 @@ export default function App() {
   }
 
   
-
   useEffect(() => {  // see toob kohe avamisel olemasolevad andmed lehele
     load();
   }, []);

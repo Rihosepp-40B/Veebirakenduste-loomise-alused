@@ -17,10 +17,15 @@ ul.item-list li button {
 }
 
 ul.item-list li div {
-  min-width: 70%;
+  width: 65%;
   text-align: justify;
+}
+
+ul.item-list li input {
+  width: 100%;
 }
 
 ul.item-list li:hover {
   background-color: aqua;
+  color: black;
 }
