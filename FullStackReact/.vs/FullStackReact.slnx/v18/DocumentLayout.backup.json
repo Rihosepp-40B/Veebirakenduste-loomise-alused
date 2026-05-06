@@ -1,0 +1,96 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\opilane\\source\\repos\\TARge25\\Riho Sepp\\Veebirakenduste-loomise-alused\\FullStackReact\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{59353DB7-6ED8-44B0-8F42-9C4672A67014}|FullStackReact.Server\\FullStackReact.Server.csproj|c:\\users\\opilane\\source\\repos\\targe25\\riho sepp\\veebirakenduste-loomise-alused\\fullstackreact\\fullstackreact.server\\domain\\planets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59353DB7-6ED8-44B0-8F42-9C4672A67014}|FullStackReact.Server\\FullStackReact.Server.csproj|solutionrelative:fullstackreact.server\\domain\\planets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59353DB7-6ED8-44B0-8F42-9C4672A67014}|FullStackReact.Server\\FullStackReact.Server.csproj|c:\\users\\opilane\\source\\repos\\targe25\\riho sepp\\veebirakenduste-loomise-alused\\fullstackreact\\fullstackreact.server\\controllers\\planetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59353DB7-6ED8-44B0-8F42-9C4672A67014}|FullStackReact.Server\\FullStackReact.Server.csproj|solutionrelative:fullstackreact.server\\controllers\\planetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59353DB7-6ED8-44B0-8F42-9C4672A67014}|FullStackReact.Server\\FullStackReact.Server.csproj|c:\\users\\opilane\\source\\repos\\targe25\\riho sepp\\veebirakenduste-loomise-alused\\fullstackreact\\fullstackreact.server\\fullstackreact.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{59353DB7-6ED8-44B0-8F42-9C4672A67014}|FullStackReact.Server\\FullStackReact.Server.csproj|solutionrelative:fullstackreact.server\\fullstackreact.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CD627FC-4EB4-820C-4866-6E3CA253B708}|fullstackreact.client\\fullstackreact.client.esproj|c:\\users\\opilane\\source\\repos\\targe25\\riho sepp\\veebirakenduste-loomise-alused\\fullstackreact\\fullstackreact.client\\src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{5CD627FC-4EB4-820C-4866-6E3CA253B708}|fullstackreact.client\\fullstackreact.client.esproj|solutionrelative:fullstackreact.client\\src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Planets.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\TARge25\\Riho Sepp\\Veebirakenduste-loomise-alused\\FullStackReact\\FullStackReact.Server\\Domain\\Planets.cs",
+              "RelativeDocumentMoniker": "FullStackReact.Server\\Domain\\Planets.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\TARge25\\Riho Sepp\\Veebirakenduste-loomise-alused\\FullStackReact\\FullStackReact.Server\\Domain\\Planets.cs",
+              "RelativeToolTip": "FullStackReact.Server\\Domain\\Planets.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T10:17:04.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlanetsController.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\TARge25\\Riho Sepp\\Veebirakenduste-loomise-alused\\FullStackReact\\FullStackReact.Server\\Controllers\\PlanetsController.cs",
+              "RelativeDocumentMoniker": "FullStackReact.Server\\Controllers\\PlanetsController.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\TARge25\\Riho Sepp\\Veebirakenduste-loomise-alused\\FullStackReact\\FullStackReact.Server\\Controllers\\PlanetsController.cs",
+              "RelativeToolTip": "FullStackReact.Server\\Controllers\\PlanetsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T10:10:11.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FullStackReact.Server",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\TARge25\\Riho Sepp\\Veebirakenduste-loomise-alused\\FullStackReact\\FullStackReact.Server\\FullStackReact.Server.csproj",
+              "RelativeDocumentMoniker": "FullStackReact.Server\\FullStackReact.Server.csproj",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\TARge25\\Riho Sepp\\Veebirakenduste-loomise-alused\\FullStackReact\\FullStackReact.Server\\FullStackReact.Server.csproj",
+              "RelativeToolTip": "FullStackReact.Server\\FullStackReact.Server.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-06T10:07:44.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.tsx",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\TARge25\\Riho Sepp\\Veebirakenduste-loomise-alused\\FullStackReact\\fullstackreact.client\\src\\App.tsx",
+              "RelativeDocumentMoniker": "fullstackreact.client\\src\\App.tsx",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\TARge25\\Riho Sepp\\Veebirakenduste-loomise-alused\\FullStackReact\\fullstackreact.client\\src\\App.tsx",
+              "RelativeToolTip": "fullstackreact.client\\src\\App.tsx",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAA4AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-05-06T10:03:04.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
