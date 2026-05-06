@@ -13,7 +13,7 @@ namespace FullStackReact.Server.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Planets>().ToTable("Planets")
+            modelBuilder.Entity<Planets>().ToTable("Planets");
         }
 
     }
