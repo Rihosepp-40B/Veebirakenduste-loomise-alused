@@ -50,7 +50,7 @@ export default function PlanetsCreate() {
             });
 
             if (!res.ok) {
-                throw new Error("Faled to create planet");
+                throw new Error("Failed to create planet");
             }
 
             const result = await res.json();

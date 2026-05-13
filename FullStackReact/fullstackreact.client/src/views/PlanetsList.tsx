@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from "react"
+import { useEffect, useState } from "react"
 import type { Planets } from "../types/planets";
 import { useNavigate } from "react-router-dom"
 
@@ -8,41 +8,47 @@ function PlanetsList() {
     const [error, setError] = useState<string | null>(null)
     const navigate = useNavigate();
 
+    useEffect(() => {
     // loob ühenduse controlleriga (PlanetsController.cs)
-    const fetchPlanets = useCallback(async () => {
-        try {
-            setLoading(true);
-            setError(null);
-            const response = await fetch("/api/planets");
-            if (response.ok) {
-                const data = await response.json();
-                setPlanets(data);
+        const fetchPlanets = async () => {
+            try {
+                setLoading(true);
+                setError(null);
+
+                const response = await fetch("/api/planets");
+                if (response.ok) {
+                    const data = await response.json();
+                    setPlanets(data);
+                }
+            } catch (error) {
+                console.error("Fetch error: ", error);
+                if (error instanceof Error) {
+                    setError(error.message);
+                } else {
+                    setError("Failed to fetch planets");
+                }
+            } finally {
+                setLoading(false);
             }
-        } catch (error) {
-            console.error("Fetch error: ", error);
-        }
+        };
+
+        fetchPlanets();
     }, []);
 
     const openCreate = () => {
-        navigate("/planets/create")
+        navigate("/planets/create");
     }
-
-    useEffect(() => {
-        (async () => {
-            await fetchPlanets();
-        })();
-    }, [fetchPlanets]);
 
     return (
         <div className="page-card">
-            <div style={{ display: "flex", justifyContent: "space-betweem", alignItems: "center" }}>
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                 <h1 style={{ margin: 0 }}>Planet List</h1>
                 <button type="button" className="success" onClick={openCreate}>
                     + Create
                 </button>
             </div>
 
-            {!loading && error && (
+            {!loading && !error && (
                 <table border={1} cellPadding={8} style={{ width: "100%", borderCollapse: "collapse", marginTop: 16 }}>
                     <thead>
                         <tr>
