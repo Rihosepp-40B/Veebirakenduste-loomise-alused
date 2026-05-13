@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FullStackReact.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+da47ef7a5d1fe46784251507558e1a80929976cd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1388b2990e97bcb1f047495f3c1241066533c254")]
 [assembly: System.Reflection.AssemblyProductAttribute("FullStackReact.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FullStackReact.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
