@@ -1,8 +1,10 @@
 import { } from 'react';
 import './App.css';
 import PlanetsList from './views/PlanetsList';
-import PlanetsCreate from './views/PlanetsCreate'
-import { Routes, Route, Navigate, HashRouter } from "react-router-dom"
+import PlanetsCreate from './views/PlanetsCreate';
+import PlanetsDetail from './views/PlanetsDetail';
+import PlanetsEdit from './views/PlanetsEdit';
+import { Routes, Route, Navigate, HashRouter } from "react-router-dom";
 
 function App() {
     return (
@@ -12,6 +14,8 @@ function App() {
 
                 <Route path="/planets" element={<PlanetsList />} />
                 <Route path="/planets/create" element={<PlanetsCreate />} />
+                <Route path="/planets/:planetsId" element={<PlanetsDetail />} />
+                <Route path="/planets/:planetsId/edit" element={<PlanetsEdit />} />
             </Routes>
         </HashRouter>
     )

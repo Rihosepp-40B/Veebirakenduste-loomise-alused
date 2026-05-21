@@ -35,6 +35,10 @@ function PlanetsList() {
         fetchPlanets();
     }, []);
 
+    const openDetail = (planetsId: string) => {
+        navigate(`/planets/${planetsId}`);
+    }
+
     const openCreate = () => {
         navigate("/planets/create");
     }
@@ -70,6 +74,23 @@ function PlanetsList() {
                                     <td>{planet.type}</td>
                                     <td>{planet.mass}</td>
                                     <td>
+                                        <div style={{ display: "flex", gap: 8 }}>
+                                            <button
+                                                type="button"
+                                                className="primary"
+                                                onClick={() => openDetail(planet.planetsId)}
+                                            >
+                                                Detail
+                                            </button>
+
+                                            <button
+                                                type="button"
+                                                className="warning"
+                                                onClick={() => navigate(`/planets/${planet.planetsId}/edit`)}
+                                            >
+                                                Edit
+                                            </button>
+                                        </div>
                                         siia teha nupud edit, details ja delete
                                     </td>
                                 </tr>
