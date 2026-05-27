@@ -61,7 +61,7 @@ export default function PlanetDelete() {
     if (error) {
         return (
             <div style={{ padding: 20 }}>
-                <h1>Planets Detail</h1>
+                <h1>Planet Delete</h1>
                 <p style={{ color: 'crimson' }}>Error: {error}</p>
 
                 <div style={{ display: "flex", gap: 12 }}>
@@ -72,41 +72,39 @@ export default function PlanetDelete() {
     }
 
     return (
-        <div style={{ padding: 20, maxWidth: 720, margin: "0 auto" }}>
-            <h1>Planet Detail</h1>
+        <div style={{ padding: 20, maxWidth: 520, margin: "0 auto" }}>
+            <h2>Delete Planet</h2>
 
-            <table border={1} cellPadding={8} cellSpacing={0} style={{ width: "100%", marginTop: 10 }}>
-                <tbody>
-                    <tr>
-                        <th style={{ textAlign: "left", width: 200 }}>ID</th>
-                        <td>{planet.planetsId}</td>
-                    </tr>
-                    <tr>
-                        <th style={{ textAlign: "left", width: 200 }}>Name</th>
-                        <td>{planet.name}</td>
-                    </tr>
-                    <tr>
-                        <th style={{ textAlign: "left", width: 200 }}>Description</th>
-                        <td>{planet.description}</td>
-                    </tr>
-                    <tr>
-                        <th style={{ textAlign: "left", width: 200 }}>Type</th>
-                        <td>{planet.type}</td>
-                    </tr>
-                    <tr>
-                        <th style={{ textAlign: "left", width: 200 }}>Mass</th>
-                        <td>{planet.mass}</td>
-                    </tr>
-                </tbody>
-            </table>
-            <div style={{ marginTop: 12, display: "flex", gap: 12 }}>
-                <button className="danger" type="button" disabled={deleting} onClick={() => onDelete()}>
-                    {deleting ? "Deleting..." : "Press to delete planet"}
-                </button>
-                <button type="button" className="success" onClick={() => navigate(-1)}>
-                    back
-                </button>
-            </div>
+            {error && <p style={{ color: "crimson" }}>{error}</p>}
+
+            {!planet ? (
+                <p>Planet not found</p>
+            ) : (
+                <>
+                    <p>Are you sure you want to delete:</p>
+
+                    <div style={{ border: "1px solid #ddd", padding: 12, marginBottom: 16 }}>
+                        <b>{planet.name}</b><br />
+                        {planet.mass ?? "-"}
+                    </div>
+
+                    <div style={{ display: "flex", gap: 10 }}>
+                        <button
+                            type="button"
+                            className="danger"
+                            onClick={onDelete}
+                            disabled={deleting}
+                            style={{ background: "#c62828", color: "white", padding: "6px 12px" }}
+                        >
+                            {deleting ? "Deleting..." : "Yes, delete"}
+                        </button>
+
+                        <button type="button" className="secondary" onClick={() => navigate("/planets")} disabled={deleting}>
+                            Cancel
+                        </button>
+                    </div>
+                </>
+            )}
         </div>
-    )
+    );
 }
