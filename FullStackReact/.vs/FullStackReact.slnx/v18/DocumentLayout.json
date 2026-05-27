@@ -3,36 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Riho\\PycharmProjects\\Respo\\Veebirakenduste-loomise-alused\\FullStackReact\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5CD627FC-4EB4-820C-4866-6E3CA253B708}|fullstackreact.client\\fullstackreact.client.esproj|c:\\users\\riho\\pycharmprojects\\respo\\veebirakenduste-loomise-alused\\fullstackreact\\fullstackreact.client\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{5CD627FC-4EB4-820C-4866-6E3CA253B708}|fullstackreact.client\\fullstackreact.client.esproj|solutionrelative:fullstackreact.client\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{98CA05D6-D422-9C56-5A52-818890777FE8}|FullStackReact.Server\\FullStackReact.Server.csproj|c:\\users\\riho\\pycharmprojects\\respo\\veebirakenduste-loomise-alused\\fullstackreact\\fullstackreact.server\\domain\\planets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98CA05D6-D422-9C56-5A52-818890777FE8}|FullStackReact.Server\\FullStackReact.Server.csproj|solutionrelative:fullstackreact.server\\domain\\planets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CD627FC-4EB4-820C-4866-6E3CA253B708}|fullstackreact.client\\fullstackreact.client.esproj|c:\\users\\riho\\pycharmprojects\\respo\\veebirakenduste-loomise-alused\\fullstackreact\\fullstackreact.client\\src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{5CD627FC-4EB4-820C-4866-6E3CA253B708}|fullstackreact.client\\fullstackreact.client.esproj|solutionrelative:fullstackreact.client\\src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{98CA05D6-D422-9C56-5A52-818890777FE8}|FullStackReact.Server\\FullStackReact.Server.csproj|c:\\users\\riho\\pycharmprojects\\respo\\veebirakenduste-loomise-alused\\fullstackreact\\fullstackreact.server\\data\\planetcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98CA05D6-D422-9C56-5A52-818890777FE8}|FullStackReact.Server\\FullStackReact.Server.csproj|solutionrelative:fullstackreact.server\\data\\planetcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CD627FC-4EB4-820C-4866-6E3CA253B708}|fullstackreact.client\\fullstackreact.client.esproj|c:\\users\\riho\\pycharmprojects\\respo\\veebirakenduste-loomise-alused\\fullstackreact\\fullstackreact.client\\src\\main.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{5CD627FC-4EB4-820C-4866-6E3CA253B708}|fullstackreact.client\\fullstackreact.client.esproj|solutionrelative:fullstackreact.client\\src\\main.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CD627FC-4EB4-820C-4866-6E3CA253B708}|fullstackreact.client\\fullstackreact.client.esproj|c:\\users\\riho\\pycharmprojects\\respo\\veebirakenduste-loomise-alused\\fullstackreact\\fullstackreact.client\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{5CD627FC-4EB4-820C-4866-6E3CA253B708}|fullstackreact.client\\fullstackreact.client.esproj|solutionrelative:fullstackreact.client\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CD627FC-4EB4-820C-4866-6E3CA253B708}|fullstackreact.client\\fullstackreact.client.esproj|c:\\users\\riho\\pycharmprojects\\respo\\veebirakenduste-loomise-alused\\fullstackreact\\fullstackreact.client\\src\\views\\planetslist.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{5CD627FC-4EB4-820C-4866-6E3CA253B708}|fullstackreact.client\\fullstackreact.client.esproj|solutionrelative:fullstackreact.client\\src\\views\\planetslist.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CD627FC-4EB4-820C-4866-6E3CA253B708}|fullstackreact.client\\fullstackreact.client.esproj|c:\\users\\riho\\pycharmprojects\\respo\\veebirakenduste-loomise-alused\\fullstackreact\\fullstackreact.client\\src\\views\\planetdelete.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{5CD627FC-4EB4-820C-4866-6E3CA253B708}|fullstackreact.client\\fullstackreact.client.esproj|solutionrelative:fullstackreact.client\\src\\views\\planetdelete.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CD627FC-4EB4-820C-4866-6E3CA253B708}|fullstackreact.client\\fullstackreact.client.esproj|c:\\users\\riho\\pycharmprojects\\respo\\veebirakenduste-loomise-alused\\fullstackreact\\fullstackreact.client\\src\\views\\planetsedit.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{5CD627FC-4EB4-820C-4866-6E3CA253B708}|fullstackreact.client\\fullstackreact.client.esproj|solutionrelative:fullstackreact.client\\src\\views\\planetsedit.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CD627FC-4EB4-820C-4866-6E3CA253B708}|fullstackreact.client\\fullstackreact.client.esproj|c:\\users\\riho\\pycharmprojects\\respo\\veebirakenduste-loomise-alused\\fullstackreact\\fullstackreact.client\\src\\views\\planetsdetail.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{5CD627FC-4EB4-820C-4866-6E3CA253B708}|fullstackreact.client\\fullstackreact.client.esproj|solutionrelative:fullstackreact.client\\src\\views\\planetsdetail.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{98CA05D6-D422-9C56-5A52-818890777FE8}|FullStackReact.Server\\FullStackReact.Server.csproj|c:\\users\\riho\\pycharmprojects\\respo\\veebirakenduste-loomise-alused\\fullstackreact\\fullstackreact.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98CA05D6-D422-9C56-5A52-818890777FE8}|FullStackReact.Server\\FullStackReact.Server.csproj|solutionrelative:fullstackreact.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -41,114 +21,56 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 237,
-          "SelectedChildIndex": 3,
+          "DockedHeight": 364,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Planets.cs",
+              "DocumentMoniker": "C:\\Users\\Riho\\PycharmProjects\\Respo\\Veebirakenduste-loomise-alused\\FullStackReact\\FullStackReact.Server\\Domain\\Planets.cs",
+              "RelativeDocumentMoniker": "FullStackReact.Server\\Domain\\Planets.cs",
+              "ToolTip": "C:\\Users\\Riho\\PycharmProjects\\Respo\\Veebirakenduste-loomise-alused\\FullStackReact\\FullStackReact.Server\\Domain\\Planets.cs",
+              "RelativeToolTip": "FullStackReact.Server\\Domain\\Planets.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T19:15:55.812Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PlanetsList.tsx",
-              "DocumentMoniker": "C:\\Users\\Riho\\PycharmProjects\\Respo\\Veebirakenduste-loomise-alused\\FullStackReact\\fullstackreact.client\\src\\views\\PlanetsList.tsx",
-              "RelativeDocumentMoniker": "fullstackreact.client\\src\\views\\PlanetsList.tsx",
-              "ToolTip": "C:\\Users\\Riho\\PycharmProjects\\Respo\\Veebirakenduste-loomise-alused\\FullStackReact\\fullstackreact.client\\src\\views\\PlanetsList.tsx",
-              "RelativeToolTip": "fullstackreact.client\\src\\views\\PlanetsList.tsx",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-05-27T12:45:57.898Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "index.css",
-              "DocumentMoniker": "C:\\Users\\Riho\\PycharmProjects\\Respo\\Veebirakenduste-loomise-alused\\FullStackReact\\fullstackreact.client\\src\\index.css",
-              "RelativeDocumentMoniker": "fullstackreact.client\\src\\index.css",
-              "ToolTip": "C:\\Users\\Riho\\PycharmProjects\\Respo\\Veebirakenduste-loomise-alused\\FullStackReact\\fullstackreact.client\\src\\index.css",
-              "RelativeToolTip": "fullstackreact.client\\src\\index.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-05-27T13:13:25.778Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "App.css",
-              "DocumentMoniker": "C:\\Users\\Riho\\PycharmProjects\\Respo\\Veebirakenduste-loomise-alused\\FullStackReact\\fullstackreact.client\\src\\App.css",
-              "RelativeDocumentMoniker": "fullstackreact.client\\src\\App.css",
-              "ToolTip": "C:\\Users\\Riho\\PycharmProjects\\Respo\\Veebirakenduste-loomise-alused\\FullStackReact\\fullstackreact.client\\src\\App.css",
-              "RelativeToolTip": "fullstackreact.client\\src\\App.css",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABcAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-05-27T12:37:08.737Z",
+              "DocumentIndex": 1,
+              "Title": "PlanetContext.cs",
+              "DocumentMoniker": "C:\\Users\\Riho\\PycharmProjects\\Respo\\Veebirakenduste-loomise-alused\\FullStackReact\\FullStackReact.Server\\Data\\PlanetContext.cs",
+              "RelativeDocumentMoniker": "FullStackReact.Server\\Data\\PlanetContext.cs",
+              "ToolTip": "C:\\Users\\Riho\\PycharmProjects\\Respo\\Veebirakenduste-loomise-alused\\FullStackReact\\FullStackReact.Server\\Data\\PlanetContext.cs",
+              "RelativeToolTip": "FullStackReact.Server\\Data\\PlanetContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T19:04:37.721Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "App.tsx",
-              "DocumentMoniker": "C:\\Users\\Riho\\PycharmProjects\\Respo\\Veebirakenduste-loomise-alused\\FullStackReact\\fullstackreact.client\\src\\App.tsx",
-              "RelativeDocumentMoniker": "fullstackreact.client\\src\\App.tsx",
-              "ToolTip": "C:\\Users\\Riho\\PycharmProjects\\Respo\\Veebirakenduste-loomise-alused\\FullStackReact\\fullstackreact.client\\src\\App.tsx",
-              "RelativeToolTip": "fullstackreact.client\\src\\App.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-05-27T12:37:06.897Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "main.tsx",
-              "DocumentMoniker": "C:\\Users\\Riho\\PycharmProjects\\Respo\\Veebirakenduste-loomise-alused\\FullStackReact\\fullstackreact.client\\src\\main.tsx",
-              "RelativeDocumentMoniker": "fullstackreact.client\\src\\main.tsx",
-              "ToolTip": "C:\\Users\\Riho\\PycharmProjects\\Respo\\Veebirakenduste-loomise-alused\\FullStackReact\\fullstackreact.client\\src\\main.tsx",
-              "RelativeToolTip": "fullstackreact.client\\src\\main.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-05-27T12:34:06.9Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PlanetsDetail.tsx",
-              "DocumentMoniker": "C:\\Users\\Riho\\PycharmProjects\\Respo\\Veebirakenduste-loomise-alused\\FullStackReact\\fullstackreact.client\\src\\views\\PlanetsDetail.tsx",
-              "RelativeDocumentMoniker": "fullstackreact.client\\src\\views\\PlanetsDetail.tsx",
-              "ToolTip": "C:\\Users\\Riho\\PycharmProjects\\Respo\\Veebirakenduste-loomise-alused\\FullStackReact\\fullstackreact.client\\src\\views\\PlanetsDetail.tsx",
-              "RelativeToolTip": "fullstackreact.client\\src\\views\\PlanetsDetail.tsx",
-              "ViewState": "AgIAADIAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-05-27T12:21:40.099Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PlanetsEdit.tsx",
-              "DocumentMoniker": "C:\\Users\\Riho\\PycharmProjects\\Respo\\Veebirakenduste-loomise-alused\\FullStackReact\\fullstackreact.client\\src\\views\\PlanetsEdit.tsx",
-              "RelativeDocumentMoniker": "fullstackreact.client\\src\\views\\PlanetsEdit.tsx",
-              "ToolTip": "C:\\Users\\Riho\\PycharmProjects\\Respo\\Veebirakenduste-loomise-alused\\FullStackReact\\fullstackreact.client\\src\\views\\PlanetsEdit.tsx",
-              "RelativeToolTip": "fullstackreact.client\\src\\views\\PlanetsEdit.tsx",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAwFAAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-05-27T12:21:36.238Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PlanetDelete.tsx",
-              "DocumentMoniker": "C:\\Users\\Riho\\PycharmProjects\\Respo\\Veebirakenduste-loomise-alused\\FullStackReact\\fullstackreact.client\\src\\views\\PlanetDelete.tsx",
-              "RelativeDocumentMoniker": "fullstackreact.client\\src\\views\\PlanetDelete.tsx",
-              "ToolTip": "C:\\Users\\Riho\\PycharmProjects\\Respo\\Veebirakenduste-loomise-alused\\FullStackReact\\fullstackreact.client\\src\\views\\PlanetDelete.tsx",
-              "RelativeToolTip": "fullstackreact.client\\src\\views\\PlanetDelete.tsx",
-              "ViewState": "AgIAADoAAAAAAAAAAAAswG0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-05-27T12:21:33.123Z"
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Riho\\PycharmProjects\\Respo\\Veebirakenduste-loomise-alused\\FullStackReact\\FullStackReact.Server\\Program.cs",
+              "RelativeDocumentMoniker": "FullStackReact.Server\\Program.cs",
+              "ToolTip": "C:\\Users\\Riho\\PycharmProjects\\Respo\\Veebirakenduste-loomise-alused\\FullStackReact\\FullStackReact.Server\\Program.cs",
+              "RelativeToolTip": "FullStackReact.Server\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T18:44:15.68Z",
+              "EditorCaption": ""
             }
           ]
         },
         {
-          "DockedHeight": 163,
+          "DockedHeight": 36,
           "SelectedChildIndex": -1,
           "Children": [
             {
@@ -158,10 +80,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             }
           ]
         }
