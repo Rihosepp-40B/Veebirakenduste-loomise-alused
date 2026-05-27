@@ -154,14 +154,14 @@ vite.config.ts.timestamp-*
 *.cache
 
 # Visual Studio cache and configuration folders
-.vs/
-*.vsidx
-*.suo
-*.futdcache*
-*.dtbcache*
-*.csproj.user
-*user
-DocumentLayout.json
+**/.vs/
+**/*.vsidx
+**/*.suo
+**/*.futdcache*
+**/*.dtbcache*
+**/*.csproj.user
+**/*.user
+**/DocumentLayout.json
 
 # Frontend / Node Outputs
 node_modules/

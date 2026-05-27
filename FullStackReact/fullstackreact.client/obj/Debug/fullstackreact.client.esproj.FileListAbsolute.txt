@@ -1,2 +1,0 @@
-C:\Users\opilane\source\repos\TARge25\Riho Sepp\Veebirakenduste-loomise-alused\FullStackReact\fullstackreact.client\obj\Debug\fullstackreact.client.esproj.CoreCompileInputs.cache
-C:\Users\Riho\PycharmProjects\Respo\Veebirakenduste-loomise-alused\FullStackReact\fullstackreact.client\obj\Debug\fullstackreact.client.esproj.CoreCompileInputs.cache
