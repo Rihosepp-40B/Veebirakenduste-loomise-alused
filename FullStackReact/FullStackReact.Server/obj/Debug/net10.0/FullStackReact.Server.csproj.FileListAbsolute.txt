@@ -327,3 +327,4 @@ C:\Users\Riho\PycharmProjects\Respo\Veebirakenduste-loomise-alused\FullStackReac
 C:\Users\Riho\PycharmProjects\Respo\Veebirakenduste-loomise-alused\FullStackReact\FullStackReact.Server\obj\Debug\net10.0\FullStackReact.Server.pdb
 C:\Users\Riho\PycharmProjects\Respo\Veebirakenduste-loomise-alused\FullStackReact\FullStackReact.Server\obj\Debug\net10.0\FullStackReact.Server.genruntimeconfig.cache
 C:\Users\Riho\PycharmProjects\Respo\Veebirakenduste-loomise-alused\FullStackReact\FullStackReact.Server\obj\Debug\net10.0\ref\FullStackReact.Server.dll
+C:\Users\opilane\source\repos\TARge25\Riho Sepp\Veebirakenduste-loomise-alused\FullStackReact\FullStackReact.Server\obj\Debug\net10.0\compressed\b068yc5160-{0}-5ipweew5fc-5ipweew5fc.gz

@@ -116,7 +116,7 @@ export default function PlanetsEdit() {
 
     return (
         <div className="page-card">
-            <h1>Edit School</h1>
+            <h1>Edit Planet</h1>
 
             {error && <p style={{ color: "crimson" }}>{error}</p>}
 

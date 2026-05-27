@@ -1,2 +1,2 @@
 wwwroot\placeholder.txt
-C:\Users\Riho\PycharmProjects\Respo\Veebirakenduste-loomise-alused\FullStackReact\FullStackReact.Server\wwwroot\placeholder.txt
+C:\Users\opilane\source\repos\TARge25\Riho Sepp\Veebirakenduste-loomise-alused\FullStackReact\FullStackReact.Server\wwwroot\placeholder.txt

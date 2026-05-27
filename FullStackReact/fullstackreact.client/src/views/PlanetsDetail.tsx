@@ -77,19 +77,19 @@ export default function PlanetsDetail() {
                         <td>{planet.planetsId}</td>
                     </tr>
                     <tr>
-                        <th style={{ textAlign: "left", width: 200}}>ID</th>
+                        <th style={{ textAlign: "left", width: 200}}>Name</th>
                         <td>{planet.name}</td>
                     </tr>
                     <tr>
-                        <th style={{ textAlign: "left", width: 200}}>ID</th>
+                        <th style={{ textAlign: "left", width: 200}}>Description</th>
                         <td>{planet.description}</td>
                     </tr>
                     <tr>
-                        <th style={{ textAlign: "left", width: 200}}>ID</th>
+                        <th style={{ textAlign: "left", width: 200}}>Type</th>
                         <td>{planet.type}</td>
                     </tr>
                     <tr>
-                        <th style={{ textAlign: "left", width: 200}}>ID</th>
+                        <th style={{ textAlign: "left", width: 200}}>Mass</th>
                         <td>{planet.mass}</td>
                     </tr>
                 </tbody>
@@ -97,7 +97,7 @@ export default function PlanetsDetail() {
             <div style={{ marginTop: 12, display: "flex", gap: 12 }}>
                 <button type="button" className="success" onClick={() => navigate(-1)}>
                     back
-                </button>           
+                </button>    
             </div>
         </div>
     )

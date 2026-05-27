@@ -90,8 +90,14 @@ function PlanetsList() {
                                             >
                                                 Edit
                                             </button>
+                                            <button
+                                                type="button"
+                                                className="danger"
+                                                onClick={() => navigate(`/planets/${planet.planetsId}/delete`)}
+                                            >
+                                                Delete
+                                            </button>
                                         </div>
-                                        siia teha nupud edit, details ja delete
                                     </td>
                                 </tr>
                             ))
